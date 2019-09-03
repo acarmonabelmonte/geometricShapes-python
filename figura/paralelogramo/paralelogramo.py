@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from figure import Figura
+from figura.figura import Figura
 
 class Paralelogramo(Figura):
     @abstractmethod

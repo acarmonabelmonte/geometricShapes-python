@@ -1,4 +1,4 @@
-from figure import Figura
+from figura.figura import Figura
 
 class Triangulo(Figura):
     # sobrecribiendo método abstracto

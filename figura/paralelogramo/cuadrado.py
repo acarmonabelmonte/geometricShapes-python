@@ -1,4 +1,4 @@
-from paralelogramo import Paralelogramo
+from figura.paralelogramo.paralelogramo import Paralelogramo
 
 class Cuadrado(Paralelogramo):
     # sobrecribiendo método abstracto

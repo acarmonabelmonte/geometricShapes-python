@@ -1,7 +1,7 @@
-from triangulo import Triangulo
-from rombo import Rombo
-from cuadrado import Cuadrado
-from paralelogramo import Paralelogramo
+from figura.triangulo.triangulo import Triangulo
+from figura.paralelogramo.rombo import Rombo
+from figura.paralelogramo.cuadrado import Cuadrado
+from figura.paralelogramo.paralelogramo import Paralelogramo
 
 def main():
     # Inicializamos un array para almacenar las figuras instanciadas
@@ -14,7 +14,7 @@ def main():
     cuadradoDos = Cuadrado()
     romboUno = Rombo()
     
-    # Añadir a la arrayList las figuras
+    # Añadimos las figuras al array
     figuras.append(trianguloUno)
     figuras.append(cuadradoUno)
     figuras.append(trianguloDos)
@@ -32,6 +32,6 @@ def main():
     for figura in figuras:
         if isinstance(figura, Triangulo):
             figura.pintar()
-            
+    
 if __name__ == "__main__":
     main()
