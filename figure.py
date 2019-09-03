@@ -1,4 +1,7 @@
-class Figura(object):
-    def pintar(self):
-        " Método que debe ser sobreescrito "
+from abc import ABC, abstractmethod
+
+class Figura(ABC): 
+    @abstractmethod
+    def pintar(self): 
         pass
+
