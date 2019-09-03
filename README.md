@@ -4,7 +4,9 @@ El ejercicio consiste en desarrollar seis pequeñas clases utilizando herencia: 
 que simplemente tendrá un pequeño método que recorra una lista.
 
 La jerarquía de las figuras es la siguiente:
+
 ![enter image description here](https://lh3.googleusercontent.com/Byt3mOkVbK2SwjNGbVxaygrNztPDo4dKrHJwDzv9_PNi2X0dc-xXq7fNExsmNl1zv8FE5ckkYyk2)
+
 
 La clase Figura es abstracta y tendrá un método llamado pintar(). El resto de clases
 heredarán de Figura (o de sus hijos) y reimplementarán el método pintar. El método
